@@ -34,6 +34,7 @@ export class AppService {
         // Assuming books is an array of book objects received from the third-party API
 
         //emit l front bli r bdat update
+        //this.server.emit("uplaod", message);
         //delete all the database we have
 
         // Save each book to the database
@@ -48,8 +49,11 @@ export class AppService {
       //       });
       //       await createdBook.save();
       //       //emit l front progress 10% 20% ......
+              //this.server.emit("uplaod", message);
+      //        sleep 2s,
       // }
       //emit l front u finished update the database
+      //this.server.emit("uplaod", message);
     } catch (error) {
       console.error('Error fetching or storing data:', error);
     }
